@@ -1,87 +1,40 @@
 
-## mintED Toasts Frontend POC
-<br />
-<div align="center">
+# mintED TOASTS Frontend POC
 
-  <h3 align="center">Alchemy NFT API Demo</h3>
+## About this project
+<br/>
 
-  <p align="center">
-    Find, verify, and display any NFT with ease.
-    <br />
-     <a href="https://github.com/alchemyplatform/Build-Your-NFT-Explorer/">Alchemy NFT API repo »</a>
-    <br />
+<p>
+    The intention of this app is to build a basic frontend to support the creation and management of ERC1155-based NFTs.  These NFTs are distributed as tokens of appreciation (TOASTs) to the NFT contract manager. 
   </p>
 
-</div>
-  
+  <p>
+    The app will have the following components:
+  </p>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
+* Viewer: User views the Toasts in their wallet
+* Explorer: User views NFTs in any wallet/contract combo
+* Creator: Admin creates and distributes Toasts
 
+<p>
+  This project is based the Alchemy NFT API, and is generally a fork of their repo <a href="https://github.com/alchemyplatform/Build-Your-NFT-Explorer/">here</a>
+</p>
 
+## Key Components
+<br/>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-<img width="1600" alt="Screenshot 2022-02-03 at 18 11 09" src="https://user-images.githubusercontent.com/72762629/152393504-72162127-cf56-4de6-8f11-1653c24aa2b9.png">
+* React: javascript framework for frontend development
+* Tailwind: CSS framework
+* Alchemy API:  library for obtaining NFT data
+<br/>
 
-Build your own multi-chain NFT Explorer using the new Alchemy NFT API! 
+## Installation
 
-
-Built on top of ReactJs, this repo showcase the functionalities of the [Alchemy NFT API](https://www.alchemy.com/nft-api):
-- Keep track of your NFTs
-- Search NFTs by collection
-- Filter by an NFT Smart Contract address
-
-and display the images, attributes, collection name, and creator of your favorite NFTs.
-
-Supporting both ERC1155 and ERC721!
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-![Jan-21-2022 19-33-50-min](https://user-images.githubusercontent.com/72762629/150807611-5bf5ab02-e9a9-4cfb-95c2-61f2bf0f0e2f.gif)
-
-
-### Built With
-
-* [Alchemy](https://www.alchemy.com)
-* [React.js](https://reactjs.org/)
-* [TailwindCSS](https://getbootstrap.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-Getting started is super simple! Follow the following steps and start fetching NFTs on Ethereum!
+Follow these steps to setup this repo:
 
 ### Prerequisites
 
 - Node >= 16.13.x
-
-
 ### Installation
 
 
@@ -135,26 +88,20 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
 ## Contact
 
- - [@AlchemyPlatform](https://twitter.com/AlchemyPlatform)
- - [Discord](https://www.alchemy.com/discord)
+ - [gotminted.xyz](https://www.gotminted.xyz)
 
- This repo was originally created by the wonderful:
+ This repo was originally created by the team at Alchemy:
 
 - [@VittoStack](https://twitter.com/VittoStack)
 - [@thatguyintech](https://twitter.com/thatguyintech)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
