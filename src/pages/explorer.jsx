@@ -11,9 +11,6 @@ const Explore = () => {
     const sampleWallet = process.env.REACT_APP_SAMPLE_WALLET;
     const sampleContractAddress = process.env.REACT_APP_CONTRACT_ADDRESS;
 
-    console.log("Wallet Address: ", walletAddress);
-    console.log("Contract Address: ", contractAddress);
-
     return (
         <div>
             <header className='py-24  mb-12 w-full   toasts'>
